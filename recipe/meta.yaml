@@ -1,5 +1,5 @@
 {% set name = "tryceratops" %}
-{% set version = "0.2.5" %}
+{% set version = "0.2.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tryceratops-{{ version }}.tar.gz
-  sha256: 96a0c49d6ccf612520c5b9cdd0137f4f8a3bb7a4464e83f6f9aaaff1612a2b3a
+  sha256: a77dd4ed9477736e947142c2439b98a0a8635003c2efd50c03c9419b4ed2c44d
 
 build:
   number: 0
@@ -20,10 +20,11 @@ build:
 requirements:
   host:
     - flit-core
+    - poetry
     - pip
     - python >=3.8
   run:
-    - click >=7
+    - click <8.0.0,>=7.0.0
     - python >=3.8
     - toml >=0.10.2
 
