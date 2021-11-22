@@ -24,8 +24,9 @@ requirements:
     - pip
     - python >=3.8
   run:
-    - click <8.0.0,>=7.0.0
+    - click >=7,<9
     - python >=3.8
+    - rich >=10.14.0
     - toml >=0.10.2
 
 test:
