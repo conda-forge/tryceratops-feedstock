@@ -1,5 +1,5 @@
 {% set name = "tryceratops" %}
-{% set version = "0.6.0" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tryceratops-{{ version }}.tar.gz
-  sha256: 50d3e1ff7d57f21ad0ddd6be9ed6ddd377fcf1363669087c9bd218649a4dcde2
+  sha256: 0ef525674369500baff9151dfbf4dd4c74b5e38f54391acfa323d83b0981cc5e
 
 build:
   number: 0
@@ -24,8 +24,9 @@ requirements:
     - pip
     - python >=3.8
   run:
-    - click <8.0.0,>=7.0.0
+    - click >=7,<9
     - python >=3.8
+    - rich >=10.14.0
     - toml >=0.10.2
 
 test:
