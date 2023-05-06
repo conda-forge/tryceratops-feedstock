@@ -1,11 +1,11 @@
-About tryceratops
-=================
+About tryceratops-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tryceratops-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/guilatrova/tryceratops
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tryceratops-feedstock/blob/main/LICENSE.txt)
 
 Summary: A linter to manage all your python exceptions and try/except blocks
 
