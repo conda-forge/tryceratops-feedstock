@@ -19,20 +19,18 @@ build:
 
 requirements:
   host:
-    - flit-core ==3.2.0
     - poetry-core >=1.0.0
     - pip
-    - python >=3.8
+    - python >=3.8,<4.0
   run:
-    - click >=7,<9
-    - python >=3.8
+    - click >=7
+    - python >=3.8,<4.0
     - rich >=10.14.0
     - toml >=0.10.2
 
 test:
   imports:
     - tryceratops
-    - tryceratops.analyzers
   commands:
     - pip check
     - tryceratops --help
