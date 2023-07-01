@@ -1,5 +1,5 @@
 {% set name = "tryceratops" %}
-{% set version = "2.3.1" %}
+{% set version = "2.3.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tryceratops-{{ version }}.tar.gz
-  sha256: e52a382969d88012f2cbd7c2ad066377cd9c240b046cf04b232886e1181a15d2
+  sha256: e9d77811d8f7d886c4ceaeadccd2675c6f2d794344775463faf1cb969e49d865
 
 build:
   number: 0
